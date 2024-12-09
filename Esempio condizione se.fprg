@@ -11,7 +11,7 @@
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="Numero1" type="Integer" array="False" size=""/>
+            <declare name="Numero1" type="Integer" array="False" size="2"/>
             <declare name="Numero2" type="Integer" array="False" size=""/>
             <output expression="&quot;Dammi due numeri&quot;" newline="True"/>
             <input variable="Numero1"/>
