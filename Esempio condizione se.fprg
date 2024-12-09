@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Esempio condizione se"/>
+        <attribute name="authors" value="ITS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-19 12:21:03 "/>
+        <attribute name="created" value="SVRTO0lUUy1QMTk7MjAyNC0xMS0xOTsiMTE6NTA6NTcgIjsxOTA1"/>
+        <attribute name="edited" value="SVRTO0lUUy1QMTk7MjAyNC0xMS0xOTsiMTI6MjE6MDMgIjsxOzIwMDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero1" type="Integer" array="False" size=""/>
+            <declare name="Numero2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Dammi due numeri&quot;" newline="True"/>
+            <input variable="Numero1"/>
+            <input variable="Numero2"/>
+            <if expression="Numero1 &gt; Numero2">
+                <then>
+                    <output expression="&quot;A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;B&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
